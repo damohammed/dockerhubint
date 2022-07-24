@@ -27,6 +27,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./docker_files/extra
+          context: ./docker/
           push: true
-          tags: uzcoder/extra_task:latest
+          tags: mukhammad9801/cicdtask:latest
