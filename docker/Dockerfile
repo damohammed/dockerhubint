@@ -56,7 +56,7 @@ USER filestash
 RUN timeout 1 /app/filestash | grep -q start && \
     rm /app/data/state/config/config.json
 
-EXPOSE 5001
+EXPOSE 8334
 VOLUME ["/app/data/state/"]
 WORKDIR "/app"
 CMD ["/app/filestash"]

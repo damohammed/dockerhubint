@@ -11,7 +11,7 @@ services:
     - DROPBOX_CLIENT_ID=<dropbox_key>
     - ONLYOFFICE_URL=http://onlyoffice
     ports:
-    - "5001:5001"
+    - "8334:8334"
 
   onlyoffice:
     container_name: filestash_oods
